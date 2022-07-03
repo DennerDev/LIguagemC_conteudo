@@ -1,0 +1,27 @@
+ Agua agua = new Agua();
+        Vinho vinho = new Vinho();
+        Cerveja cerveja = new Cerveja();
+        Energetico energetico = new Energetico();
+        Refrigerante refrigerante = new Refrigerante();
+
+
+        // Tela Inicial
+        JOptionPane.showMessageDialog(null, "Super Mercado Hit " );
+        JOptionPane.showMessageDialog(null, "Aqui você pode criar a sua lista de compras \n     Vamos as nosas opções " );
+
+        JOptionPane.showInputDialog(null, "-------------------------------\n" + 
+                                                "1 - Mercearia \n2 - Bebidas \n3 - Congelados \n4 - Higiene \n" +
+                                                           "-------------------------------\n" +
+                                                           "Digite qual setor você deseja comprar ");
+                                                           ============
+
+
+
+                                                           // Tela Inicial
+    JOptionPane.showMessageDialog(null, "Super Mercado Hit " );
+    JOptionPane.showMessageDialog(null, "Aqui você pode criar a sua lista de compras \n     Vamos as nosas opções " );
+
+    JOptionPane.showInputDialog(null, "-------------------------------\n" + 
+                                            "1 - Mercearia \n2 - Bebidas \n3 - Congelados \n4 - Higiene \n" +
+                                                       "-------------------------------\n" +
+                                                       "Digite qual setor você deseja comprar ");

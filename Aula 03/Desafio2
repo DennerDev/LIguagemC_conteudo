@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Desafio2 {
+
+	public static void main(String[] args) {
+		int valorinserido;
+		int maiorvalor = Integer.MIN_VALUE;
+		int rodadas;
+		
+		Scanner ler = new Scanner(System.in);
+		
+		System.out.println("Quantos números você quer analisar?");
+		rodadas = ler.nextInt();
+		
+		for(int i = 1; i <= rodadas; i++) {
+			System.out.println("Insira o " + i + "º" + " número: ");
+			valorinserido = ler.nextInt();
+			if(valorinserido > maiorvalor) {
+				maiorvalor = valorinserido;
+			}
+		}
+		System.out.println("O maior valor é " + maiorvalor);
+	}
+}

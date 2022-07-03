@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class Desafio1 {
+	public static void main(String[] args) {
+		Scanner ler = new Scanner(System.in);
+		
+		int a;
+		int b;
+		int i;
+		
+		System.out.print("Insira o valor A");
+		a = ler.nextInt();
+		System.out.print("Insira o valor B");
+		b = ler.nextInt();
+		
+		for(i = a; i <= b; i++) {
+			if(i % 2 == 0) {
+				System.out.println(i);
+			}
+		}
+	}
+
+}
